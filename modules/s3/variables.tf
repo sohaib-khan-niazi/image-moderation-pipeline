@@ -17,6 +17,10 @@ variable "force_ssl" {
   default = true 
 }
 
+variable "lambda_function_arn" {
+  type = string  
+}
+
 variable "tags" { 
   type = map(string) 
   default = {} 
