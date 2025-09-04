@@ -36,3 +36,12 @@ override.tf.json
 .terraformrc
 terraform.rc
 .DS_Store
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local env files
+.env
